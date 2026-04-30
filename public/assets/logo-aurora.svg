@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
+  <defs>
+    <linearGradient id="aurora-grad" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#22d3ee"></stop>
+      <stop offset="50%" stop-color="#7c3aed"></stop>
+      <stop offset="100%" stop-color="#ec4899"></stop>
+    </linearGradient>
+    <radialGradient id="aurora-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.6"></stop>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"></stop>
+    </radialGradient>
+    <filter id="aurora-blur">
+      <feGaussianBlur stdDeviation="20"></feGaussianBlur>
+    </filter>
+  </defs>
+
+  
+  <rect width="600" height="200" fill="#07071a"></rect>
+
+  
+  <ellipse cx="160" cy="100" rx="140" ry="80" fill="url(#aurora-glow)" filter="url(#aurora-blur)"></ellipse>
+  <ellipse cx="450" cy="100" rx="140" ry="80" fill="#22d3ee" fill-opacity="0.3" filter="url(#aurora-blur)"></ellipse>
+
+  
+  <text x="300" y="125" text-anchor="middle" font-family="&#39;Space Grotesk&#39;, system-ui, sans-serif" font-size="92" font-weight="600" letter-spacing="-3" fill="url(#aurora-grad)">chaveex</text>
+
+  
+  <circle cx="510" cy="118" r="6" fill="#22d3ee"></circle>
+</svg>

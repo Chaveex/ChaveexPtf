@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" width="600" height="240" font-family="Bungee, Impact, sans-serif">
+  <defs>
+    <pattern id="memphis-sprinkle" width="14" height="14" patternUnits="userSpaceOnUse">
+      <rect width="14" height="14" fill="#2ec4c4"></rect>
+      <path d="M2 4l3 0M8 9l3 0M3 11l2 0M9 2l2 0" stroke="#fff" stroke-width="1.5" stroke-linecap="round"></path>
+    </pattern>
+    <filter id="memphis-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feOffset dx="6" dy="6"></feOffset>
+      <feFlood flood-color="#0a0a0a"></feFlood>
+      <feComposite in2="SourceAlpha" operator="in"></feComposite>
+      <feMerge>
+        <feMergeNode></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+  </defs>
+
+  
+  <g>
+    
+    <circle cx="490" cy="70" r="48" fill="#ffd93d"></circle>
+    <g clip-path="circle(48px at 490 70)">
+      <g stroke="#ff4fa3" stroke-width="6">
+        <line x1="430" y1="40" x2="550" y2="40"></line>
+        <line x1="430" y1="55" x2="550" y2="55"></line>
+        <line x1="430" y1="70" x2="550" y2="70"></line>
+        <line x1="430" y1="85" x2="550" y2="85"></line>
+        <line x1="430" y1="100" x2="550" y2="100"></line>
+      </g>
+    </g>
+    
+    <polygon points="120,30 320,30 220,180" fill="url(#memphis-sprinkle)" stroke="#0a0a0a" stroke-width="3"></polygon>
+    
+    <path d="M40 60 q10 -20 20 0 t20 0 t20 0 t20 0" fill="none" stroke="#2ec4c4" stroke-width="6" stroke-linecap="round"></path>
+    
+    <polygon points="540,30 555,30 548,50 562,50 545,80 552,58 538,58" fill="#ffd93d" stroke="#0a0a0a" stroke-width="2.5"></polygon>
+  </g>
+
+  
+  <g transform="rotate(-4 300 140)">
+    <rect x="40" y="100" width="520" height="90" fill="#ff4fa3" stroke="#0a0a0a" stroke-width="4"></rect>
+    
+    <text x="300" y="165" text-anchor="middle" font-size="62" font-weight="800" fill="#ffd93d" stroke="#0a0a0a" stroke-width="3" paint-order="stroke" letter-spacing="2">CHAVEEX</text>
+  </g>
+
+  
+  <g>
+    <circle cx="60" cy="200" r="5" fill="#a78bfa"></circle>
+    <circle cx="555" cy="180" r="4" fill="#ff4fa3"></circle>
+    <polygon points="20,210 30,210 25,200" fill="#ffd93d"></polygon>
+    <polygon points="565,215 580,215 572,225" fill="#2ec4c4"></polygon>
+  </g>
+</svg>
