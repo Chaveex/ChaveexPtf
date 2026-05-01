@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { DATA } from '@/lib/i18n';
 import { useApp } from '@/context/AppContext';
 import styles from '@/styles/portfolio.module.css';
@@ -31,7 +32,7 @@ export default function HeroSplit() {
             <div className={styles.splitSq} />
             <div className={styles.photoFrame}>
               <div className={styles.photoInner}>
-                <span className={styles.photoLabel}>[ photo / portrait ]</span>
+                <Image src="/assets/portrait.png" alt="Vivien Chavée" fill style={{ objectFit: 'cover' }} />
               </div>
             </div>
             <div className={styles.splitCircle} />
