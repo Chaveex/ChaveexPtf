@@ -13,7 +13,7 @@ export default function Nav() {
       <div className={styles.container}>
         <div className={styles.navInner}>
           <a className={styles.navLogo} href="#" onClick={e => e.preventDefault()} aria-label="Chaveex">
-            <Image src={logoSrc} alt="Chaveex" width={120} height={32} priority />
+            <Image src={logoSrc} alt="Chaveex" width={160} height={43} priority />
           </a>
           <nav className={styles.navLinks} aria-label="Navigation principale">
             <a href="#about" className={styles.navHide}>{t.navAbout}</a>
