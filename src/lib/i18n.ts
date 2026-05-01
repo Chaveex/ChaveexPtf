@@ -51,8 +51,8 @@ export const DATA: Record<string, Translations> = {
       },
     ],
     stackGroups: [
-      { name: 'Backend', chips: [{ l: 'Java', c: 'c-pink' }, { l: 'Spring Boot', c: 'c-pink' }, { l: 'JPA', c: '' }, { l: 'Kafka', c: 'c-purple' }] },
-      { name: 'Front', chips: [{ l: 'TypeScript', c: 'c-teal' }, { l: 'React', c: 'c-teal' }, { l: 'Next.js', c: '' }] },
+      { name: 'Backend', chips: [{ l: 'Java', c: 'c-pink' }, { l: 'Spring Boot', c: 'c-pink' }, { l: 'JPA', c: '' }] },
+      { name: 'Front', chips: [{ l: 'TypeScript', c: 'c-teal' }, { l: 'React', c: 'c-teal' }] },
       { name: 'Data & ops', chips: [{ l: 'SQL', c: 'c-yellow' }, { l: 'PostgreSQL', c: '' }, { l: 'Kubernetes', c: 'c-yellow' }, { l: 'Docker', c: '' }] },
       { name: 'Outils', chips: [{ l: 'Git', c: 'c-purple' }, { l: 'GH Copilot', c: 'c-purple' }, { l: 'Claude', c: '' }] },
     ],
@@ -108,8 +108,8 @@ export const DATA: Record<string, Translations> = {
       },
     ],
     stackGroups: [
-      { name: 'Backend', chips: [{ l: 'Java', c: 'c-pink' }, { l: 'Spring Boot', c: 'c-pink' }, { l: 'JPA', c: '' }, { l: 'Kafka', c: 'c-purple' }] },
-      { name: 'Front', chips: [{ l: 'TypeScript', c: 'c-teal' }, { l: 'React', c: 'c-teal' }, { l: 'Next.js', c: '' }] },
+      { name: 'Backend', chips: [{ l: 'Java', c: 'c-pink' }, { l: 'Spring Boot', c: 'c-pink' }, { l: 'JPA', c: '' }] },
+      { name: 'Front', chips: [{ l: 'TypeScript', c: 'c-teal' }, { l: 'React', c: 'c-teal' }] },
       { name: 'Data & ops', chips: [{ l: 'SQL', c: 'c-yellow' }, { l: 'PostgreSQL', c: '' }, { l: 'Kubernetes', c: 'c-yellow' }, { l: 'Docker', c: '' }] },
       { name: 'Tools', chips: [{ l: 'Git', c: 'c-purple' }, { l: 'GH Copilot', c: 'c-purple' }, { l: 'Claude', c: '' }] },
     ],
