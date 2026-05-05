@@ -1,0 +1,116 @@
+
+
+Software Engineer at Société Générale
+
+Société Générale
+
+avr. 2017 - aujourd’hui · 9 ans 2 mois
+
+Paris et périphérie
+
+I joined Société Général in 2017 first as a consultant developer before joining them in 2020. 
+I was part of the SAFIR program (60 developers Paris - Bangalore), the main SAFIR application allows the Group to carry out Level 2 Accounting Consistency, Basel adjustments and RWA (Risk Weight Asset) production. It provides a common base intended for the Group's uses in terms of risk management and reporting.
+
+The first goal of my mission was to develop, using Test Driven Development and Behavior Driven Development methodlogy, a java (8) webservice which calculates the Risk Weight Asset on Equities.
+
+Then I worked on a project involved developing two microservices and a webservice to calculate Risk Weights for asset tranches in the factoring domain. Data volume for this project was quite bigger, all process had to be optimized to be able to run in less time possible.
+
+
+A part of the previous project, I was part of the continuous improvement of the SAFIR program, adding new features on the Adjustment HMI (Java 6, JPA, Apache), various java application (RWA calcultator, Referential loader, Tranching service...), SQL loading data script, shell scripting.
+
+
+In 2023, I joined the program Certification Factory : the complete SAFIR project overhaul. The goal is to totally modernize SAFIR project to be aligned with new Basel requirement (data volume): New HMI, new calculation core on the cloud. This project introduce new technologies as React, Typescript, Postgres SQL, Databricks, AWS Services into RWA calculation.
+
+ SQL, Java et 17 compétences de plus
+
+---
+
+Software Engineer 
+
+DataFab
+
+janv. 2019 - janv. 2020 · 1 an 1 mois
+
+---
+
+Java/Calypso Developer
+
+42 Consulting Groupe
+
+oct. 2013 - déc. 2018 · 5 ans 3 mois
+
+I have joined 42Consulting developers Team to develop a new Calypo asset.
+During this intern mission
+I had to write technical and functional specifications, study new API to implement in the project, think about a branching strategy on a versionning tools and implement them.
+I had to developp a part of the asset which is developped in Java language.
+
+Technical Environment : Calypso, JAVA, Windows 7 (windows XP, Virtual Machine), Eclipse, Git.
+
+---
+
+JAVA/LoanIQ Developer
+
+BNP Paribas Corporate and Institutional Banking
+
+mai 2014 - avr. 2017 · 3 ans
+
+During my mission, I have to make sure that the migration from Loan IQ 6th version to the 7th one and their interfaces works without any regression or issues. We take this opportunity to implement automation tools like Jenkins, and a continuous integration with others tools like Maven, nexus, sonar etc...
+The second project was a migration of loans from Uniloan to LoanIQ.  I had to develop a migration tool with a team of 6 developers (2 in France and 4 in Mumbai), using Spring framework (including spring batch), test NG and Ehcache. 
+
+ Java, Jenkins et 6 compétences de plus
+
+---
+
+Webcaster at Gaming-live
+
+Gaming Live
+
+mai 2014 - oct. 2015 · 1 an 6 mois
+
+Apart from my working hours, I animate with two friends a program devoted to video games called Memory Card, we collaborate with jeuxvidéo.com the biggest French video games website. During this emission, we have some reviews and give our opinion on the games in direct live therefore viewers can have one concise idea about the game. 
+
+Memory Card Youtube Channel : https://www.youtube.com/user/memorycardgametest
+
+---
+
+WebCaster for Ogaming.tv
+
+Alt Tab Productions / O'Gaming TV
+
+sept. 2012 - mai 2014 · 1 an 9 mois
+
+Apart from my working hours, I animate with two friends a program devoted to video games called Memory Card. During this emission, we have some critical and give our opinion on the games so that viewers can have one concise idea.
+
+Memory Card Youtube Channel : https://www.youtube.com/user/memorycardgametest
+Ogaming Live Show : http://www.ogaming.tv/
+Logo de 42 Consulting Groupe
+
+---
+
+Lead Developer
+
+42 Consulting Groupe
+
+mars 2011 - juil. 2012 · 1 an 5 mois
+
+I was Zend lead developer at 42Consulting for a web project called NERD.
+NERD is an intranet which centralizes all jobs information.
+I had to lead a team composed of 3 developers, and so manage the schedule according to agile software method.
+I have written technicals and functionals specifications.
+Then I developed a part of the project in Zend coupled to Doctrine which is an ORM.
+When our tasks were finished, I had to put into quality assurance testing and user acceptance testing, and finally into production.
+
+In addition, I wrote a SQL training for 42Consulting consultants.
+
+
+Technical environment : Windows 7, Fedora, Eclipse, Netbeans, Emacs, HTML/CSS, PHP5, mySQL, SQL, JavaScript, JQuery, Doctrine, Zend, Subversion.
+
+---
+
+Webmaster
+
+design by Caroline Lisfranc CL Premium sas
+
+sept. 2009 - déc. 2009 · 4 mois
+
+Intégration et développement de deux sites : www.clpremium.com et www.carolinelisfranc.fr

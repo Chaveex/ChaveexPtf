@@ -31,7 +31,7 @@ export default function Nav() {
                 </button>
               ))}
             </div>
-            <a className={styles.navCv} href="/CV-Vivien-Chavee.pdf" download>
+            <a className={styles.navCv} href={state.lang === 'en' ? '/CV-Vivien-Chavee-en.pdf' : '/CV-Vivien-Chavee.pdf'} download>
               {t.cv} ↓
             </a>
           </nav>

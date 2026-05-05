@@ -16,7 +16,7 @@ export default function HeroTerminal() {
             <div className={styles.heroTermRole}>{t.termRole}</div>
             <p className={styles.heroTermSub}>{t.termSub}</p>
             <div className={styles.heroTermCtas}>
-              <a className={`${styles.btn} ${styles.btnPrimary}`} href="/CV-Vivien-Chavee.pdf" download>
+              <a className={`${styles.btn} ${styles.btnPrimary}`} href={state.lang === 'en' ? '/CV-Vivien-Chavee-en.pdf' : '/CV-Vivien-Chavee.pdf'} download>
                 {t.cv} ↓
               </a>
               <a className={`${styles.btn} ${styles.btnSecondary}`} href="#contact">
