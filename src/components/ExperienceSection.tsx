@@ -20,7 +20,7 @@ export default function ExperienceSection() {
               <div className={styles.tlWhen}>{it.year}</div>
               <div className={styles.tlRole}>{it.role}</div>
               <div className={styles.tlCompany}>{it.co}</div>
-              <p className={styles.tlDesc}>{it.desc}</p>
+              {it.desc.map((p, k) => <p key={k} className={styles.tlDesc}>{p}</p>)}
               <div>
                 {it.chips.map((ch, j) => (
                   <span key={j} className={`${styles.chip} ${styles[CHIP_COLORS[j % 4]]}`}>

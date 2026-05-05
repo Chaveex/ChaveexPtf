@@ -23,7 +23,7 @@ export interface ExpItem {
   year: string;
   co: string;
   role: string;
-  desc: string;
+  desc: string[];
   chips: string[];
 }
 
