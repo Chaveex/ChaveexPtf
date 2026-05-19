@@ -34,7 +34,7 @@ export default function HeroAsymm() {
               </div>
             </div>
             <div className={styles.asmmCtas}>
-              <a className={`${styles.btn} ${styles.btnPrimary}`} href={state.lang === 'en' ? '/CV-Vivien-Chavee-en.pdf' : '/CV-Vivien-Chavee.pdf'} download>
+              <a className={`${styles.btn} ${styles.btnPrimary}`} href={state.lang === 'en' ? '/Mozilla_CV_VivienChavee.pdf' : '/CV-Vivien-Chavee.pdf'} download>
                 {t.cv} ↓
               </a>
               <a className={`${styles.btn} ${styles.btnSecondary}`} href="#contact">

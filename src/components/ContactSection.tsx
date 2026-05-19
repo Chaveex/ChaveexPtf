@@ -21,8 +21,8 @@ export default function ContactSection() {
             </div>
             <div className={styles.ctaRow}>
               <div className={styles.ctaIcon} aria-hidden="true">in</div>
-              <a href="https://linkedin.com/in/vivien-chavee-40124792" target="_blank" rel="noopener noreferrer" className={styles.ctaLink}>
-                vivien-chavee-40124792
+              <a href="https://www.linkedin.com/in/vivienchavee/" target="_blank" rel="noopener noreferrer" className={styles.ctaLink}>
+                vivienchavee
               </a>
             </div>
             <div className={styles.ctaRow}>

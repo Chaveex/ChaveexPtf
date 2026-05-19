@@ -10,7 +10,6 @@ import ExperienceSection from "@/components/ExperienceSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import MemphisDeco from "@/components/MemphisDeco";
-import StyleSwitcher from "@/components/StyleSwitcher";
 import styles from "@/styles/portfolio.module.css";
 
 const HERO_COMPONENTS = {
@@ -43,7 +42,6 @@ export default function Home() {
         <ExperienceSection />
         <ContactSection />
         <Footer />
-        <StyleSwitcher />
       </div>
     </>
   );
