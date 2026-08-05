@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV – Vivien Chavee</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 9.5pt;
+    color: #222;
+    background: #fff;
+  }
+
+  .page {
+    display: flex;
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+  }
+
+  /* ── SIDEBAR ── */
+  .sidebar {
+    width: 68mm;
+    background: #1a2640;
+    color: #e8edf5;
+    padding: 20mm 7mm 10mm 7mm;
+    flex-shrink: 0;
+  }
+
+  .name {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2;
+    margin-bottom: 2mm;
+  }
+
+  .title {
+    font-size: 8.5pt;
+    color: #8fa8d0;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 6mm;
+    line-height: 1.4;
+  }
+
+  .contact {
+    margin-bottom: 7mm;
+    border-bottom: 1px solid #2e4060;
+    padding-bottom: 6mm;
+  }
+
+  .contact p {
+    font-size: 8pt;
+    color: #a0b4cc;
+    margin-bottom: 2mm;
+    line-height: 1.4;
+  }
+
+  .section-title {
+    font-size: 8pt;
+    font-weight: 700;
+    color: #5b8fc9;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 4mm;
+    margin-top: 6mm;
+  }
+
+  .skill-group {
+    margin-bottom: 3mm;
+  }
+
+  .skill-label {
+    font-size: 7.5pt;
+    color: #8fa8d0;
+    font-weight: 600;
+    margin-bottom: 1mm;
+  }
+
+  .skill-value {
+    font-size: 8pt;
+    color: #c8d8ea;
+    line-height: 1.5;
+  }
+
+  .edu-item {
+    margin-bottom: 4mm;
+  }
+
+  .edu-school {
+    font-size: 8.5pt;
+    font-weight: 700;
+    color: #c8d8ea;
+  }
+
+  .edu-degree {
+    font-size: 7.5pt;
+    color: #8fa8d0;
+    line-height: 1.4;
+  }
+
+  .edu-dates {
+    font-size: 7pt;
+    color: #5b7a9a;
+    margin-top: 0.5mm;
+  }
+
+  /* ── MAIN ── */
+  .main {
+    flex: 1;
+    padding: 14mm 12mm 10mm 10mm;
+  }
+
+  .profile-box {
+    background: #f0f5fb;
+    border-left: 3px solid #1a2640;
+    padding: 5mm 6mm;
+    margin-bottom: 8mm;
+    border-radius: 0 3px 3px 0;
+  }
+
+  .profile-box p {
+    font-size: 8.5pt;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  .exp-section-title {
+    font-size: 10pt;
+    font-weight: 700;
+    color: #1a2640;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid #1a2640;
+    padding-bottom: 1.5mm;
+    margin-bottom: 5mm;
+  }
+
+  .company {
+    margin-bottom: 6mm;
+  }
+
+  .company-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1.5mm;
+  }
+
+  .company-name {
+    font-size: 9.5pt;
+    font-weight: 700;
+    color: #1a2640;
+  }
+
+  .company-dates {
+    font-size: 7.5pt;
+    color: #8fa8d0;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .role-title {
+    font-size: 8.5pt;
+    color: #5b8fc9;
+    font-weight: 600;
+    margin-bottom: 2.5mm;
+  }
+
+  .sub-role {
+    margin-bottom: 4mm;
+    padding-left: 3mm;
+    border-left: 2px solid #d0dff0;
+  }
+
+  .sub-role-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1.5mm;
+  }
+
+  .sub-role-name {
+    font-size: 8.5pt;
+    font-weight: 700;
+    color: #2a3f60;
+  }
+
+  .sub-role-dates {
+    font-size: 7pt;
+    color: #8fa8d0;
+    white-space: nowrap;
+  }
+
+  ul {
+    padding-left: 4mm;
+    list-style: none;
+  }
+
+  ul li {
+    font-size: 8.5pt;
+    line-height: 1.55;
+    color: #333;
+    margin-bottom: 1mm;
+    padding-left: 3mm;
+    position: relative;
+  }
+
+  ul li::before {
+    content: '▸';
+    position: absolute;
+    left: -1mm;
+    color: #5b8fc9;
+    font-size: 7pt;
+    top: 0.5mm;
+  }
+
+  .metric {
+    font-weight: 700;
+    color: #1a2640;
+  }
+
+  .placeholder {
+    color: #c0392b;
+    font-style: italic;
+  }
+
+  @media print {
+    body { margin: 0; }
+    .page { margin: 0; width: 100%; }
+    .placeholder { color: #c0392b; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ════ SIDEBAR ════ -->
+  <aside class="sidebar">
+    <div class="name">Vivien<br>Chavee</div>
+    <div class="title">Senior Software Engineer<br>Banking &amp; Risk</div>
+
+    <div class="contact">
+      <p>+33 6 95 56 68 04</p>
+      <p>chaveev@gmail.com</p>
+    </div>
+
+    <!-- SKILLS FIRST -->
+    <div class="section-title">Skills</div>
+
+    <div class="skill-group">
+      <div class="skill-label">Backend</div>
+      <div class="skill-value">Java 8–21, Spring Boot,<br>Spring Batch</div>
+    </div>
+
+    <div class="skill-group">
+      <div class="skill-label">Frontend</div>
+      <div class="skill-value">React 18, TypeScript,<br>JavaScript</div>
+    </div>
+
+    <div class="skill-group">
+      <div class="skill-label">DevOps / Cloud</div>
+      <div class="skill-value">Kubernetes, Jenkins,<br>GitHub Actions, AWS</div>
+    </div>
+
+    <div class="skill-group">
+      <div class="skill-label">Data</div>
+      <div class="skill-value">PostgreSQL, Databricks,<br>Oracle, Teradata</div>
+    </div>
+
+    <div class="skill-group">
+      <div class="skill-label">Methodology</div>
+      <div class="skill-value">TDD, BDD, Agile</div>
+    </div>
+
+    <!-- EDUCATION SECOND -->
+    <div class="section-title">Education</div>
+
+    <div class="edu-item">
+      <div class="edu-school">EPITECH</div>
+      <div class="edu-degree">Information Technology Expert<br>(MSc equiv.)</div>
+      <div class="edu-dates">2008 – 2014</div>
+    </div>
+
+    <div class="edu-item">
+      <div class="edu-school">Universidad de Huelva</div>
+      <div class="edu-degree">IT Engineer (exchange)</div>
+      <div class="edu-dates">2012 – 2013</div>
+    </div>
+
+    <div class="edu-item">
+      <div class="edu-school">Lycée André Boulloche</div>
+      <div class="edu-degree">Baccalauréat Général</div>
+      <div class="edu-dates">2008</div>
+    </div>
+  </aside>
+
+  <!-- ════ MAIN ════ -->
+  <main class="main">
+
+    <!-- PROFILE -->
+    <div class="profile-box">
+      <p>
+        Senior Software Engineer with <span class="metric">12 years</span> of experience in the banking sector,
+        specializing in credit risk management and regulatory capital (Basel / RWA).
+        Designs and delivers large-scale, full-stack solutions (Java / React) combining measurable
+        business impact with production-grade security and scalability.
+        Proven track record across Société Générale and BNP Paribas CIB on high-volume,
+        constraint-driven systems.
+      </p>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <div class="exp-section-title">Professional Experience</div>
+
+    <!-- SG -->
+    <div class="company">
+      <div class="company-header">
+        <span class="company-name">Société Générale</span>
+        <span class="company-dates">2017 – present</span>
+      </div>
+      <div class="role-title">Software Engineer → Senior Software Engineer</div>
+
+      <!-- Nova -->
+      <div class="sub-role">
+        <div class="sub-role-header">
+          <span class="sub-role-name">Nova – Rating Interface (Climate &amp; Financial Risk)</span>
+          <span class="sub-role-dates">2025 – present</span>
+        </div>
+        <ul>
+          <li>Built client-facing rating interface for financial and climate-risk exposure using <strong>Java 21 / Spring Boot 3</strong> and <strong>React 18</strong>.</li>
+          <li>CI/CD via Jenkins and Kubernetes on AWS; enforced TDD coverage from day one.</li>
+        </ul>
+      </div>
+
+      <!-- Cert Factory -->
+      <div class="sub-role">
+        <div class="sub-role-header">
+          <span class="sub-role-name">Certification Factory – Cloud Redesign of SAFIR</span>
+          <span class="sub-role-dates">2023 – 2025</span>
+        </div>
+        <ul>
+          <li>Contributed to greenfield cloud rewrite of the core Basel / RWA platform on <strong>React, TypeScript, PostgreSQL, Databricks, AWS</strong>.</li>
+          <li>Delivered <span class="placeholder">[X]</span> new modules; reduced reporting latency by <span class="placeholder">[X]%</span>.</li>
+        </ul>
+      </div>
+
+      <!-- SAFIR -->
+      <div class="sub-role">
+        <div class="sub-role-header">
+          <span class="sub-role-name">SAFIR – Basel Adjustments &amp; RWA Production (Paris–Bangalore)</span>
+          <span class="sub-role-dates">2017 – 2023</span>
+        </div>
+        <ul>
+          <li>Developed, using TDD/BDD, a <strong>Java 8</strong> web service for RWA calculations on equity portfolios.</li>
+          <li>Built Risk Weight computation for factoring asset tranches under high-volume constraints (<span class="placeholder">[X]M+ records</span>).</li>
+          <li>Continuous improvement: adjustment interface, RWA calculators, tranching services, reference data loaders, SQL/shell scripts.</li>
+          <li>Joined as consultant (2017), transitioned to permanent employee (2020).</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- BNP -->
+    <div class="company">
+      <div class="company-header">
+        <span class="company-name">BNP Paribas CIB</span>
+        <span class="company-dates">2014 – 2017</span>
+      </div>
+      <div class="role-title">Java Developer – Loan IQ</div>
+      <ul>
+        <li>Migrated Loan IQ v6 → v7 with <span class="metric">zero regressions or incidents</span>; introduced Jenkins CI, Maven, Nexus, Sonar.</li>
+        <li>Led development of loan migration tool (Uniloan → Loan IQ) within a <strong>6-developer team</strong> using Spring Batch, TestNG, Ehcache.</li>
+      </ul>
+    </div>
+
+    <!-- 42Consulting -->
+    <div class="company">
+      <div class="company-header">
+        <span class="company-name">42Consulting</span>
+        <span class="company-dates">2011 – 2014</span>
+      </div>
+      <div class="role-title">Lead Developer</div>
+      <ul>
+        <li>Led a <strong>3-developer team</strong> on NERD, an internal business-intelligence platform (Zend Framework, Doctrine).</li>
+        <li>Owned full lifecycle: functional &amp; technical specs → development → QA → UAT → production releases.</li>
+        <li>Designed and delivered an SQL training program for consultants across the firm.</li>
+        <li>Managed project planning and tracking via agile methods.</li>
+      </ul>
+    </div>
+
+  </main>
+</div>
+</body>
+</html>
