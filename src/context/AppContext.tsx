@@ -9,7 +9,7 @@ const DEFAULT_ACCENTS: Record<StyleVariant, string> = {
 };
 
 const DEFAULTS: AppState = {
-  hero: 'terminal',
+  hero: 'split',
   style: 'memphis',
   lang: 'fr',
   accent: '#ff4fa3',
