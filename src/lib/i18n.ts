@@ -23,7 +23,7 @@ export const DATA: Record<string, Translations> = {
     lookEyebrow: 'Opportunités',
     lookTitle: 'Ce que je cherche',
     lookCards: [
-      { name: 'Où', chips: [{ l: 'Full remote', c: 'c-teal' }, { l: 'Hybride possible', c: '' }, { l: 'Basé en France', c: '' }] },
+      { name: 'Où', chips: [{ l: 'Full remote · international', c: 'c-teal' }, { l: 'Hybride · Île-de-France', c: '' }, { l: 'Basé en France', c: '' }] },
       { name: 'Pour qui', chips: [{ l: 'Client final', c: 'c-pink' }, { l: 'Produit', c: '' }, { l: 'Santé', c: '' }, { l: 'Énergie', c: '' }, { l: 'Tech', c: '' }] },
       { name: 'Comment', chips: [{ l: 'Employeur direct', c: 'c-yellow' }, { l: "Pas d'ESN", c: '' }] },
     ],
@@ -112,7 +112,7 @@ export const DATA: Record<string, Translations> = {
     lookEyebrow: 'Opportunities',
     lookTitle: "What I'm looking for",
     lookCards: [
-      { name: 'Where', chips: [{ l: 'Full remote', c: 'c-teal' }, { l: 'Hybrid possible', c: '' }, { l: 'Based in France', c: '' }] },
+      { name: 'Where', chips: [{ l: 'Full remote · international', c: 'c-teal' }, { l: 'Hybrid · Île-de-France', c: '' }, { l: 'Based in France', c: '' }] },
       { name: 'For whom', chips: [{ l: 'End client', c: 'c-pink' }, { l: 'Product', c: '' }, { l: 'Healthcare', c: '' }, { l: 'Energy', c: '' }, { l: 'Tech', c: '' }] },
       { name: 'How', chips: [{ l: 'Direct employer', c: 'c-yellow' }, { l: 'No staffing firms (ESN)', c: '' }] },
     ],
