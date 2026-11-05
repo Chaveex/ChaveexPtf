@@ -46,6 +46,9 @@ export interface Translations {
   expTitle: string;
   ctaBig: string;
   ctaSub: string;
+  lookEyebrow: string;
+  lookTitle: string;
+  lookCards: StackGroup[];
   expItems: ExpItem[];
   stackGroups: StackGroup[];
   footerR: string;

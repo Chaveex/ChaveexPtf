@@ -7,6 +7,7 @@ import HeroAsymm from "@/components/HeroAsymm";
 import HeroTerminal from "@/components/HeroTerminal";
 import StackSection from "@/components/StackSection";
 import ExperienceSection from "@/components/ExperienceSection";
+import LookingForSection from "@/components/LookingForSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import MemphisDeco from "@/components/MemphisDeco";
@@ -27,12 +28,13 @@ export default function Home() {
     <>
       <Head>
         <title>Vivien Chavee — Portfolio</title>
-        <meta name="description" content="Software Engineer Backend & Full-stack · Paris · 12 ans d'expérience · Java, Spring Boot, Kubernetes, React" />
+        <meta name="description" content="Software Engineer Backend & Full-stack · France · 15 ans d'expérience · Java, Spring Boot, React, IA générative" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="Vivien Chavee — Portfolio" />
         <meta property="og:description" content={t.sub} />
         <meta property="og:type" content="website" />
+        <meta property="og:locale" content="fr_FR" />
       </Head>
       <div className={styles.page}>
         <MemphisDeco />
@@ -40,6 +42,7 @@ export default function Home() {
         <HeroComp />
         <StackSection />
         <ExperienceSection />
+        <LookingForSection />
         <ContactSection />
         <Footer />
       </div>
