@@ -27,11 +27,11 @@ export const DATA: Record<string, Translations> = {
         role: 'Software Engineer',
         desc: [
           "Arrivé comme développeur consultant en 2017, intégré en interne en 2020. Trois programmes majeurs sur des systèmes de risque Bâle/RWA traitant des dizaines de millions de lignes sur des tables de 200+ colonnes.",
-          "SAFIR (2017–2023) — Application cœur dédiée aux ajustements Bâle et à la production des RWA, utilisée par des équipes internationales (France, États-Unis, Roumanie). Équipes de 10–12 ingénieurs répartis entre Paris et Bangalore.",
+          "Nova (2025–présent) — Interface de notation permettant aux collaborateurs de Société Générale d'évaluer l'exposition aux risques financiers et climatiques de millions d'entreprises.",
           [
-            "Développement en TDD/BDD d'un webservice Java 8 de calcul des RWA sur les equity",
-            "Construction d'un service de calcul des Risk Weights pour des tranches d'actifs en affacturage sous fortes contraintes de volumétrie",
-            "Livraison de calculateurs RWA, services de tranching et loaders référentiels",
+            "Développé en Java 21 / Spring Boot 3.4, React 18, déployé via Jenkins et Kubernetes",
+            "Migration Spring Boot 2.8 → 3.4 avec GitHub Copilot pour accélérer le refactoring",
+            "CI/CD : déploiements quotidiens en dev, plusieurs déploiements en staging par semaine",
           ],
           "Certification Factory (2023–2024) — Refonte cloud complète de SAFIR (React, TypeScript, PostgreSQL, Databricks, AWS).",
           [
@@ -39,11 +39,11 @@ export const DATA: Record<string, Translations> = {
             "Consolidation de 200+ batchs en 4 services modulaires",
             "Réduction du temps de déploiement d'1 jour à 2–3 heures",
           ],
-          "Nova (2025–présent) — Interface de notation permettant aux collaborateurs de Société Générale d'évaluer l'exposition aux risques financiers et climatiques de millions d'entreprises.",
+          "SAFIR (2017–2023) — Application cœur dédiée aux ajustements Bâle et à la production des RWA, utilisée par des équipes internationales (France, États-Unis, Roumanie). Équipe de 9 ingénieurs, dont 3 à Bangalore.",
           [
-            "Développé en Java 21 / Spring Boot 3, React 18, déployé via Jenkins et Kubernetes",
-            "Migration Spring Boot 2.8 → 3.4 avec GitHub Copilot pour accélérer le refactoring",
-            "CI/CD : déploiements quotidiens en dev, plusieurs déploiements en staging par semaine",
+            "Développement en TDD/BDD d'un webservice Java 8 de calcul des RWA sur les equity",
+            "Construction d'un service de calcul des Risk Weights pour des tranches d'actifs en affacturage sous fortes contraintes de volumétrie",
+            "Livraison de calculateurs RWA, services de tranching et loaders référentiels",
           ],
         ],
         chips: ['Java', 'Spring', 'SQL', 'React', 'Databricks', 'AWS', 'K8s'],
@@ -109,11 +109,11 @@ export const DATA: Record<string, Translations> = {
         role: 'Software Engineer',
         desc: [
           'Joined as consultant developer in 2017, became an internal employee in 2020. Worked across three major programs on Basel/RWA risk systems processing tens of millions of records across tables with 200+ columns.',
-          'SAFIR (2017–2023) — Core application for Basel adjustments and RWA production, used by international teams across France, USA, Romania and others. Cross-functional teams of 10–12 engineers split between Paris and Bangalore.',
+          'Nova (2025–present) — Rating interface for Société Générale employees to assess financial and climate risk exposure across millions of companies.',
           [
-            'Developed Java 8 web service for RWA calculations on equities using TDD/BDD',
-            'Built Risk Weight computation service for factoring asset tranches under high-volume constraints',
-            'Delivered RWA calculators, tranching services, and reference data loaders',
+            'Built with Java 21 / Spring Boot 3.4, React 18, deployed via Jenkins and Kubernetes',
+            'Migrated Spring Boot 2.8 → 3.4 leveraging GitHub Copilot for accelerated refactoring',
+            'CI/CD cadence: daily dev deploys, multiple staging deploys per week',
           ],
           'Certification Factory (2023–2024) — Full cloud redesign of SAFIR (React, TypeScript, PostgreSQL, Databricks, AWS).',
           [
@@ -121,11 +121,11 @@ export const DATA: Record<string, Translations> = {
             'Consolidated 200+ batch processes into 4 modular services',
             'Cut deployment time from 1 day to 2–3 hours',
           ],
-          'Nova (2025–present) — Rating interface for Société Générale employees to assess financial and climate risk exposure across millions of companies.',
+          'SAFIR (2017–2023) — Core application for Basel adjustments and RWA production, used by international teams across France, USA, Romania and others. Team of 9 engineers, 3 of them in Bangalore.',
           [
-            'Built with Java 21 / Spring Boot 3, React 18, deployed via Jenkins and Kubernetes',
-            'Migrated Spring Boot 2.8 → 3.4 leveraging GitHub Copilot for accelerated refactoring',
-            'CI/CD cadence: daily dev deploys, multiple staging deploys per week',
+            'Developed Java 8 web service for RWA calculations on equities using TDD/BDD',
+            'Built Risk Weight computation service for factoring asset tranches under high-volume constraints',
+            'Delivered RWA calculators, tranching services, and reference data loaders',
           ],
         ],
         chips: ['Java', 'Spring', 'SQL', 'React', 'Databricks', 'AWS', 'K8s'],
